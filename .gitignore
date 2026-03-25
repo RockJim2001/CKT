@@ -1,0 +1,30 @@
+# 忽略所有文件和文件夹
+.gitignore
+data
+docker
+imgs
+resources
+save_dir_adaptive
+save_dir_baseline
+save_dir_CKT
+save_dir_fpn
+save_dir_gfsdet
+save_dir_gfsdet_add
+save_dir_ours
+save_dir_ours_add
+save_dir_tfa
+work_dirs
+graph
+graph.pdf
+
+# 但不忽略以下内容
+!configs/
+!mmfewshot/
+!tests/
+!tools/
+!demo/
+!requirements
+!setup.py
+!setup.cfg
+
+# 注意：Git 不会跟踪空目录，但上述规则会跟踪目录下的内容
