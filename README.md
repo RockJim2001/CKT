@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Generalized Few-Shot Object Detection in Remote Sensing Images
 This is the code for "Generalized Few-Shot Object Detection in Remote Sensing Images"
 
@@ -62,3 +63,6 @@ We have provided  the few-shot annotations in 'data/few_shot_ann'.
 ## Base training checkpoint on DIOR dataset
 Split1: https://pan.baidu.com/s/11PcX-ywOiF3bPhFIcZKlUA     
         code：ouhu
+=======
+# Controlled Knowledge Transfer for Generalized Few-Shot Object Detection
+>>>>>>> ckt/master
