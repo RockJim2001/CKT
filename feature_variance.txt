@@ -1,0 +1,5 @@
+Layer: roi_head.bbox_head.shared_fcs.1
+Samples: 1000
+Intra-class variance: 1538.034229
+Inter-class distance: 12.380555
+Separation ratio (Inter / Intra): 0.008050
