@@ -1,15 +1,16 @@
 <<<<<<< HEAD
-# Generalized Few-Shot Object Detection in Remote Sensing Images
-This is the code for "Generalized Few-Shot Object Detection in Remote Sensing Images"
+# Controlled Knowledge Transfer for Generalized Few-Shot Object Detection
+This is the code for "Controlled Knowledge Transfer for Generalized Few-Shot Object Detection"
 
-![](imgs/overall.jpg)
+![](imgs/overview.png)
 
 This code is based on [MMFewshot](https://github.com/open-mmlab/mmfewshot), you can see the mmfew for more detail about the instructions.
 
-
+![](imgs/nwpu_visual.png)
+## Detection Results
+![](imgs/dior_visual.png)
 
 ## Two-stage training framework
-
 
 Following the original implementation, it consists of 3 steps:
 - **Step1: Base training**
@@ -60,9 +61,5 @@ bash ./tools/detection/dist_train.sh \
 ## Data preparation
 We have provided  the few-shot annotations in 'data/few_shot_ann'. 
 
-## Base training checkpoint on DIOR dataset
-Split1: https://pan.baidu.com/s/11PcX-ywOiF3bPhFIcZKlUA     
-        code：ouhu
-=======
 # Controlled Knowledge Transfer for Generalized Few-Shot Object Detection
 >>>>>>> ckt/master
